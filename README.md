@@ -1,6 +1,6 @@
 # Sistema de Reserva de Passagens de Ônibus
 
-Este projeto é um sistema de gerenciamento de linhas de ônibus desenvolvido em Python. Ele permite cadastrar linhas, ônibus, consultar horários, vender passagens, gerar relatórios, etc. O sistema é baseado em um menu interativo no terminal, onde o usuário pode realizar operações de CRUD (Criar, Ler, Atualizar, Deletar) em linhas e ônibus, além de funcionalidades de reserva e relatórios.
+Este projeto é um sistema de gerenciamento de linhas de ônibus, desenvolvido em Python. Ele permite cadastrar linhas, ônibus, consultar horários, vender passagens, gerar relatórios, etc. O sistema é baseado em um menu interativo no terminal, onde o usuário pode realizar operações de CRUD (Criar, Ler, Atualizar, Deletar) em linhas e ônibus, além de funcionalidades de reserva e criação de relatórios.
 
 ## Como Funciona o Projeto
 
@@ -65,20 +65,18 @@ Todas as telas são interativas, com validações de entrada (ex.: datas no form
 
 ## CONCLUSÃO
 
-Este sistema é uma ferramenta completa para gerenciamento de reservas de ônibus, adequada para pequenos operadores ou como protótipo educacional. Ele demonstra conceitos de programação orientada a objetos (embora em Python procedural), validações de dados, manipulação de arquivos e relatórios.
+Este sistema é uma ferramenta completa para gerenciamento de reservas de ônibus, adequada para pequenos operadores ou como protótipo educacional. Ele demonstra conceitos de programação orientada a objetos, validações de dados, manipulação de arquivos e relatórios.
 
 ### Limitações
 - Dados não são persistidos entre execuções (tudo fica em memória); relatórios são salvos em arquivos, mas linhas e ônibus são perdidos ao fechar.
 - Interface limitada ao terminal.
-- Validações básicas; não trata casos extremos como fusos horários ou múltiplas vendas simultâneas.
+- As validações são básicas, não trata casos extremos como fusos horários ou múltiplas vendas simultâneas.
 - Capacidade fixa de 20 assentos por ônibus.
 - Não há autenticação de usuários ou controle de acesso.
-- Relatórios são simples e salvos em texto plano.
+- Relatórios são simples e salvos em texto simples.
 
 ### Problemas Conhecidos
-- Dependência de entrada manual; erros de digitação podem causar loops ou falhas.
-- Não há backup automático de dados; perda de informações em caso de erro.
+- Não há backup automático de dados. Acontece a perda de informações em caso de erro.
 - Processamento de reservas de arquivo pode falhar se o formato não for exato.
-- Não suporta reservas múltiplas em lote eficientemente.
 
 Futuras melhorias poderiam incluir banco de dados para persistência, interface gráfica e integração com APIs de pagamento.
