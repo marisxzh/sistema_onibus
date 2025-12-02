@@ -1,0 +1,9 @@
+São Paulo, 12:00, 20/12/2025, 7
+São Paulo, 12:00, 20/12/2025, 2
+Belo Horizonte, 22:00, 25/12/2025, 15
+Belo Horizonte, 22:00, 25/12/2025, 16
+Belo Horizonte, 22:00, 01/11/2024, 10
+Belo Horizonte, 22:00, 25/12/2025, 72
+Cidade X, 08:00, 20/12/2025, 5
+Linha Mal Formatada, sem data
+Salvador, 19:30, 02/12/2025, 10
